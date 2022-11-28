@@ -1,0 +1,20 @@
+
+
+body {
+    background-image: url('../images/background.jpeg');
+}
+
+.title
+{
+    /* background-color: #F1391F; */
+    color: white;
+    background-image: linear-gradient(#F1391F, #F1391F);
+    border-radius: 200px;
+}
+
+.build-section
+{
+    color: white;
+    background-image: linear-gradient(#FF5216, #FF5216);
+    border-radius: 200px;
+}
