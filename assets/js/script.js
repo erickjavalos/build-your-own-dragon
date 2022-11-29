@@ -360,7 +360,7 @@ varLayersDict = {
         "Single Lava purple .png","Single Lava purple orange .png",
         "Single Lava teal orange .png","Single Lava white blue .png",
         "Single_Lava_Wlayer png.png"
-    ],
+    ]
 
 
     "Smoke":["none",
