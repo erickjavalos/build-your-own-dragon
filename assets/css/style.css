@@ -6,15 +6,38 @@ body {
 
 .title
 {
-    /* background-color: #F1391F; */
     color: white;
     background-image: linear-gradient(#F1391F, #F1391F);
-    border-radius: 200px;
+    box-shadow: 0px 0px 30px #FF5216;
 }
-
+.card-background
+{
+    background-color: #F1391F;
+}
 .build-section
 {
     color: white;
-    background-image: linear-gradient(#FF5216, #FF5216);
+    background-image: linear-gradient(#F1391F, #F1391F);
     border-radius: 200px;
+    box-shadow: 0px 0px 30px #FF5216;
+    border-radius: 50px;
+}
+.dragon-image
+{
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.layers-btn
+{
+    background: url("../images/layers_background.jpg") no-repeat scroll 0 0 transparent;
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+    /* background-size: cover; */
+    /* justify-content: center; */
+    /* text-align: center; */
+    /* border: none; */
 }

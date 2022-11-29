@@ -31,14 +31,37 @@
     <!-- build your own bug section -->
     <div class="row justify-content-center my-3">
         <div class="col-8">
-            <div class="card build-section">
-                <div class="card-body">
+            <!-- top level card to host everything -->
+            <div class="row">
+                <!-- Image Card -->
+                <div class="card build-section col-7 mx-1 p-3">
+                    <img src="./assets/images/dragon/Background/Aegean.png" class="dragon-image">
                 </div>
-              </div>
+                <!-- Selection of type -->
+                <div id="layerLocation" class="card build-section col-2 justify-content-center">
+
+                </div>
+
+                <!-- Selection of layer -->
+                <div id="layers" class="card build-section mx-1 col-2 justify-content-center">
+                    <button id ="Background" type="button" class="btn btn-secondary my-1">Background</button>
+                    <button id ="Body" type="button" class="btn btn-secondary my-1">Body</button>
+                    <button id ="Chest" type="button" class="btn btn-secondary my-1">Chest</button>
+                    <button id ="Eyes" type="button" class="btn btn-secondary my-1">Eyes</button>
+                    <button id ="Head" type="button" class="btn btn-secondary my-1">Head</button>
+                    <button id ="Horns" type="button" class="btn btn-secondary my-1">Horns</button>
+                    <button id ="Smoke" type="button" class="btn btn-secondary my-1">Smoke</button>
+                    <button id ="Teeth" type="button" class="btn btn-secondary my-1">Teeth</button>
+                    <button id ="Tongue" type="button" class="btn btn-secondary my-1">Tongue</button>
+
+                </div>
+
+            </div>
           </div>
     </div>
 
-    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>    
+    <script src="./assets/js/script.js"></script>    
 </body>
 
 
