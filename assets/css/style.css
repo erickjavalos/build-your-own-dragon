@@ -39,5 +39,22 @@ body {
     /* background-size: cover; */
     /* justify-content: center; */
     /* text-align: center; */
-    /* border: none; */
+    /* 
+    
+    border: none; */
 }
+
+.cornerimage 
+{ 
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+} 
+
+.dropdown-menu {         
+    position: relative;
+    display: inline-block;
+    max-height: 849.33px;
+    overflow-y: auto;
+    z-index: 1;
+  }
